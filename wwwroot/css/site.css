@@ -1,0 +1,50 @@
+<style >
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #c00; /* Vermelho para navbar e footer */
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+section#home {
+    text-align: center;
+    margin: 2rem;
+}
+
+button {
+    background-color: #c00; /* Vermelho para o botão */
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+    button:hover {
+        background-color: #a00; /* Tom mais escuro de vermelho ao passar o mouse */
+    }
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+    .gallery img {
+        width: 200px;
+        height: 150px;
+        object-fit: cover;
+    }
+
+    .gallery div {
+        text-align: center;
+    }
+
+</style >
